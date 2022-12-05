@@ -5,8 +5,15 @@ favico.width = 40;
 favico.height = 40;
 topmar.appendChild(favico)
 
-var homeButton = document.createElement("a")
-homeButton.className = "blank"
-homeButton.innerText = "首页"
-homeButton.href = "/index.html"
-topmar.appendChild(homeButton)
+var addButton = function(text,link) {
+    var button = document.createElement("a")
+    button.className = "blank"
+    button.innerText = text
+    button.href = link
+    topmar.appendChild(button)
+    return button;
+}
+
+var homeButton = addButton("首页","/index.html")
+
+var PojectsButton = addButton("我的项目","")

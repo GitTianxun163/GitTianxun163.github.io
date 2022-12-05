@@ -5,6 +5,7 @@
     width:100%;
     display: flex;
     position:absolute;
+    position: fixed; /*固定在顶部*/
     top:0px;
     left:0px;
 }

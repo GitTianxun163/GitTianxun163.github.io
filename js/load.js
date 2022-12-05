@@ -8,4 +8,4 @@ if (xhr.readyState === 4) {
 };
 xhr.send();
 
-
+document.getElementById("main").style.height = window.innerHeight;
