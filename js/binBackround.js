@@ -1,0 +1,1 @@
+document.body.style.background("url('https://cn.bing.com/th?id=OHR.AntarcticaDay_ZH-CN7039175515_1920x1080.jpg&rf=LaDigue_1920x1080.jpg')")
