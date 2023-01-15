@@ -1,0 +1,39 @@
+.button_white{
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    border: solid 1px;
+    border-color: white;
+    text-align: center;
+    min-width: 160px;
+    min-height: 60px;
+    font-size:large;
+    color:white;
+    margin: 10px;
+    user-select: none;
+    transition:all 0.5s;
+}
+.button_white:hover{
+    background-color: rgba(255,255,255,0.23);
+    transition:all 0.5s;
+}
+
+.button_black{
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0);
+    border: solid 1px;
+    border-color: black;
+    text-align: center;
+    min-width: 160px;
+    min-height: 60px;
+    font-size:large;
+    color:black;
+    margin: 10px;
+    user-select: none;
+    transition:all 0.5s;
+}
+.button_black:hover{
+    background-color: rgba(0,0,0,0.2);
+    transition:all 0.5s;
+}
+
+.title{color:white}
